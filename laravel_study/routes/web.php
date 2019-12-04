@@ -12,6 +12,7 @@
 */
 
 Route::get('/', 'SiteController@index');
+Route::get('/about', 'SiteController@about');
 Route::get('/book1', 'BookController@book');
 Route::namespace('Book')->group(function(){
     
