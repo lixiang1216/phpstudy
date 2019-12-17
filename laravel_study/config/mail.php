@@ -7,9 +7,9 @@ return [
     | Mail Driver
     |--------------------------------------------------------------------------
     |
-    | Laravel supports both SMTP and PHP's "mail" function as drivers for the
-    | sending of e-mail. You may specify which one you're using throughout
-    | your application here. By default, Laravel is setup for SMTP mail.
+    | Laravel支持SMTP和PHP的“邮件”功能作为驱动程序
+    | 发送电子邮件。 您可以指定整个使用哪个
+    | 您的应用程序在这里。 默认情况下，Laravel为SMTP邮件设置。
     |
     | Supported: "smtp", "sendmail", "mailgun", "mandrill", "ses",
     |            "sparkpost", "postmark", "log", "array"
@@ -23,9 +23,9 @@ return [
     | SMTP Host Address
     |--------------------------------------------------------------------------
     |
-    | Here you may provide the host address of the SMTP server used by your
-    | applications. A default option is provided that is compatible with
-    | the Mailgun mail service which will provide reliable deliveries.
+    | 在这里，您可以提供您的SMTP服务器的主机地址
+    | 应用程序。 提供的默认选项与
+    | Mailgun邮件服务，它将提供可靠的传递。
     |
     */
 
@@ -36,9 +36,9 @@ return [
     | SMTP Host Port
     |--------------------------------------------------------------------------
     |
-    | This is the SMTP port used by your application to deliver e-mails to
-    | users of the application. Like the host we have set this value to
-    | stay compatible with the Mailgun e-mail application by default.
+    | 这是应用程序用来将电子邮件发送到的SMTP端口。
+    | 应用程序的用户。 像主机一样，我们将该值设置为
+    | 默认情况下与Mailgun电子邮件应用程序保持兼容。
     |
     */
 
@@ -49,9 +49,9 @@ return [
     | Global "From" Address
     |--------------------------------------------------------------------------
     |
-    | You may wish for all e-mails sent by your application to be sent from
-    | the same address. Here, you may specify a name and address that is
-    | used globally for all e-mails that are sent by your application.
+    | 您可能希望将您的应用程序发送的所有电子邮件从
+    | 相同的地址。 在这里，您可以指定一个名称和地址
+    | 全局用于您的应用程序发送的所有电子邮件。
     |
     */
 
@@ -65,9 +65,9 @@ return [
     | E-Mail Encryption Protocol
     |--------------------------------------------------------------------------
     |
-    | Here you may specify the encryption protocol that should be used when
-    | the application send e-mail messages. A sensible default using the
-    | transport layer security protocol should provide great security.
+    | 在这里，您可以指定在以下情况下应使用的加密协议
+    | 该应用程序发送电子邮件。 使用
+    | 传输层安全协议应该提供很大的安全性。
     |
     */
 
@@ -78,9 +78,9 @@ return [
     | SMTP Server Username
     |--------------------------------------------------------------------------
     |
-    | If your SMTP server requires a username for authentication, you should
-    | set it here. This will get used to authenticate with your server on
-    | connection. You may also set the "password" value below this one.
+    | 如果您的SMTP服务器需要用户名进行身份验证，则应
+    | 放在这里。 这将用于在您的服务器上进行身份验证
+    | 连接。 您也可以将“ password”值设置为低于此值。
     |
     */
 
@@ -93,9 +93,9 @@ return [
     | Sendmail System Path
     |--------------------------------------------------------------------------
     |
-    | When using the "sendmail" driver to send e-mails, we will need to know
-    | the path to where Sendmail lives on this server. A default path has
-    | been provided here, which will work well on most of your systems.
+    | 使用“ sendmail”驱动程序发送电子邮件时，我们需要知道
+    | Sendmail在此服务器上的驻留路径。 默认路径有
+    | 此处提供了此功能，它将在您的大多数系统上运行良好。
     |
     */
 
@@ -106,9 +106,9 @@ return [
     | Markdown Mail Settings
     |--------------------------------------------------------------------------
     |
-    | If you are using Markdown based email rendering, you may configure your
-    | theme and component paths here, allowing you to customize the design
-    | of the emails. Or, you may simply stick with the Laravel defaults!
+    | 如果您使用基于Markdown的电子邮件呈现，则可以配置
+    | 此处的主题和组件路径，可让您自定义设计
+    | 的电子邮件。 或者，您可能只是坚持使用Laravel默认值！
     |
     */
 
@@ -125,9 +125,9 @@ return [
     | Log Channel
     |--------------------------------------------------------------------------
     |
-    | If you are using the "log" driver, you may specify the logging channel
-    | if you prefer to keep mail messages separate from other log entries
-    | for simpler reading. Otherwise, the default channel will be used.
+    | 如果使用“日志”驱动程序，则可以指定日志记录通道
+    | 如果您希望将邮件消息与其他日志条目分开存放
+    | 以便于阅读。 否则，将使用默认频道。
     |
     */
 

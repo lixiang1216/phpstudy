@@ -11,17 +11,22 @@
 |
 */
 
+
 Route::get('/', 'SiteController@index');
 Route::get('/about', 'SiteController@about');
-Route::get('/book1', 'BookController@book');
+//Route::get('/book1/{id}', 'Book\BookController@book');
+
 Route::namespace('Book')->group(function(){
-    
+    Route::get('/book/book', 'BookController@book')->middleware('getinfor');
+    Route::get('/book/index', 'BookController@index');
+    Route::get('/book', 'BookController');
 });
 
+Route::resource('user','UserController');
 
-
-
-
+// Route::fallback(function () {
+//     return "404040404";
+// });
 
 
 
@@ -56,3 +61,6 @@ Route::delete('/book', function () {
     return '删除BOOK';
 });
 */
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');

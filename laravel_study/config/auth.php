@@ -7,9 +7,9 @@ return [
     | Authentication Defaults
     |--------------------------------------------------------------------------
     |
-    | This option controls the default authentication "guard" and password
-    | reset options for your application. You may change these defaults
-    | as required, but they're a perfect start for most applications.
+    | 此选项控制默认的身份验证“防护”和密码
+    | 重置应用程序的选项。 您可以更改这些默认值
+    | 根据需要，但对于大多数应用程序来说，它们是一个完美的开始。
     |
     */
 
@@ -23,15 +23,15 @@ return [
     | Authentication Guards
     |--------------------------------------------------------------------------
     |
-    | Next, you may define every authentication guard for your application.
-    | Of course, a great default configuration has been defined for you
-    | here which uses session storage and the Eloquent user provider.
-    |
-    | All authentication drivers have a user provider. This defines how the
-    | users are actually retrieved out of your database or other storage
-    | mechanisms used by this application to persist your user's data.
-    |
-    | Supported: "session", "token"
+    | 接下来，您可以为应用程序定义每个身份验证保护。
+    | 当然，已经为您定义了一个很好的默认配置
+    | 这里使用会话存储和Eloquent用户提供程序。
+    |
+    | 所有身份验证驱动程序都有一个用户提供程序。 这定义了
+    | 实际上是从数据库或其他存储中检索用户
+    | 该应用程序用于保留用户数据的机制。
+    |
+    | 支持：“会话”，“令牌”
     |
     */
 
@@ -53,13 +53,13 @@ return [
     | User Providers
     |--------------------------------------------------------------------------
     |
-    | All authentication drivers have a user provider. This defines how the
-    | users are actually retrieved out of your database or other storage
-    | mechanisms used by this application to persist your user's data.
-    |
-    | If you have multiple user tables or models you may configure multiple
-    | sources which represent each model / table. These sources may then
-    | be assigned to any extra authentication guards you have defined.
+    | 所有身份验证驱动程序都有一个用户提供程序。 这定义了
+    | 实际上是从数据库或其他存储中检索用户
+    | 该应用程序用于保留用户数据的机制。
+    |
+    | 如果您有多个用户表或模型，则可以配置多个
+    | 代表每个模型/表格的资源。 这些来源可能会
+    | 被分配给您定义的任何其他身份验证保护。
     |
     | Supported: "database", "eloquent"
     |
@@ -82,13 +82,13 @@ return [
     | Resetting Passwords
     |--------------------------------------------------------------------------
     |
-    | You may specify multiple password reset configurations if you have more
-    | than one user table or model in the application and you want to have
-    | separate password reset settings based on the specific user types.
-    |
-    | The expire time is the number of minutes that the reset token should be
-    | considered valid. This security feature keeps tokens short-lived so
-    | they have less time to be guessed. You may change this as needed.
+    | 如果您有更多密码重置配置，则可以指定多个
+    | 而不是应用程序中的一个用户表或模型
+    | 根据特定的用户类型分别设置密码重置设置。
+    |
+    | 到期时间是重置令牌应为的分钟数
+    | 被认为是有效的。 此安全功能使令牌的寿命很短，因此
+    | 他们有更少的时间可以猜测。 您可以根据需要更改此设置。
     |
     */
 

@@ -9,9 +9,9 @@ return [
     | Default Database Connection Name
     |--------------------------------------------------------------------------
     |
-    | Here you may specify which of the database connections below you wish
-    | to use as your default connection for all database work. Of course
-    | you may use many connections at once using the Database library.
+    | 在这里，您可以指定以下哪个数据库连接
+    | 用作所有数据库工作的默认连接。 当然
+    | 您可以使用数据库库一次使用许多连接。
     |
     */
 
@@ -22,14 +22,14 @@ return [
     | Database Connections
     |--------------------------------------------------------------------------
     |
-    | Here are each of the database connections setup for your application.
-    | Of course, examples of configuring each database platform that is
-    | supported by Laravel is shown below to make development simple.
-    |
-    |
-    | All database work in Laravel is done through the PHP PDO facilities
-    | so make sure you have the driver for your particular database of
-    | choice installed on your machine before you begin development.
+    | 这是您的应用程序的每个数据库连接设置。
+    | 当然，配置每个数据库平台的示例
+    | 为了简化开发，下面显示了Laravel支持的视图。
+    |
+    |
+    | Laravel中的所有数据库工作都是通过PHP PDO工具完成的
+    | 因此，请确保您具有特定数据库的驱动程序
+    | 开始开发之前，请先将选择安装在计算机上。
     |
     */
 
@@ -98,9 +98,9 @@ return [
     | Migration Repository Table
     |--------------------------------------------------------------------------
     |
-    | This table keeps track of all the migrations that have already run for
-    | your application. Using this information, we can determine which of
-    | the migrations on disk haven't actually been run in the database.
+    | 该表跟踪已针对其运行的所有迁移
+    | 你的申请。 利用这些信息，我们可以确定
+    | 磁盘上的迁移实际上尚未在数据库中运行。
     |
     */
 
@@ -111,9 +111,9 @@ return [
     | Redis Databases
     |--------------------------------------------------------------------------
     |
-    | Redis is an open source, fast, and advanced key-value store that also
-    | provides a richer body of commands than a typical key-value system
-    | such as APC or Memcached. Laravel makes it easy to dig right in.
+    | Redis是一个开源，快速且高级的键值存储，它还可以
+    | 提供比典型键值系统更丰富的命令主体
+    | 例如APC或Memcached。 Laravel使您可以轻松地进行深入挖掘。
     |
     */
 

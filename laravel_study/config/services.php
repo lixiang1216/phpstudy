@@ -7,10 +7,10 @@ return [
     | Third Party Services
     |--------------------------------------------------------------------------
     |
-    | This file is for storing the credentials for third party services such
-    | as Mailgun, SparkPost and others. This file provides a sane default
-    | location for this type of information, allowing packages to have
-    | a conventional file to locate the various service credentials.
+    | 此文件用于存储第三方服务的凭据，例如
+    | 如Mailgun，SparkPost等。 该文件提供了默认值
+    | 此类信息的位置，使包裹可以
+    | 用于查找各种服务凭据的常规文件。
     |
     */
 

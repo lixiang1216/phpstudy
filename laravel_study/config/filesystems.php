@@ -7,9 +7,9 @@ return [
     | Default Filesystem Disk
     |--------------------------------------------------------------------------
     |
-    | Here you may specify the default filesystem disk that should be used
-    | by the framework. The "local" disk, as well as a variety of cloud
-    | based disks are available to your application. Just store away!
+    | 在这里，您可以指定应使用的默认文件系统磁盘
+    | 通过框架。 “本地”磁盘以及各种云
+    | 基于磁盘的磁盘可用于您的应用程序。 只是存放！
     |
     */
 
@@ -20,9 +20,9 @@ return [
     | Default Cloud Filesystem Disk
     |--------------------------------------------------------------------------
     |
-    | Many applications store files both locally and in the cloud. For this
-    | reason, you may specify a default "cloud" driver here. This driver
-    | will be bound as the Cloud disk implementation in the container.
+    | 许多应用程序都在本地和云中存储文件。 为了这
+    | 因此，您可以在此处指定默认的“云”驱动程序。 这个司机
+    | 将绑定为容器中的云磁盘实现。
     |
     */
 
@@ -33,9 +33,9 @@ return [
     | Filesystem Disks
     |--------------------------------------------------------------------------
     |
-    | Here you may configure as many filesystem "disks" as you wish, and you
-    | may even configure multiple disks of the same driver. Defaults have
-    | been setup for each driver as an example of the required options.
+    | 在这里，您可以根据需要配置任意数量的文件系统“磁盘”，并且您可以
+    | 甚至可以配置同一驱动程序的多个磁盘。 默认有
+    | 已为每个驱动程序进行了设置，作为必需选项的示例。
     |
     | Supported Drivers: "local", "ftp", "sftp", "s3", "rackspace"
     |

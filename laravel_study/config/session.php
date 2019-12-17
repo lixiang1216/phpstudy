@@ -9,9 +9,9 @@ return [
     | Default Session Driver
     |--------------------------------------------------------------------------
     |
-    | This option controls the default session "driver" that will be used on
-    | requests. By default, we will use the lightweight native driver but
-    | you may specify any of the other wonderful drivers provided here.
+    | 此选项控制将在以下位置使用的默认会话“驱动程序”
+    | 要求。 默认情况下，我们将使用轻量级本机驱动程序，但
+    | 您可以指定此处提供的其他任何出色的驱动程序。
     |
     | Supported: "file", "cookie", "database", "apc",
     |            "memcached", "redis", "dynamodb", "array"
@@ -25,9 +25,9 @@ return [
     | Session Lifetime
     |--------------------------------------------------------------------------
     |
-    | Here you may specify the number of minutes that you wish the session
-    | to be allowed to remain idle before it expires. If you want them
-    | to immediately expire on the browser closing, set that option.
+    | 您可以在此处指定您希望会议进行的分钟数
+    | 被允许在其过期之前保持空闲状态。 如果你想要他们
+    | 要立即在浏览器关闭时到期，请设置该选项。
     |
     */
 
@@ -40,9 +40,9 @@ return [
     | Session Encryption
     |--------------------------------------------------------------------------
     |
-    | This option allows you to easily specify that all of your session data
-    | should be encrypted before it is stored. All encryption will be run
-    | automatically by Laravel and you can use the Session like normal.
+    | 此选项使您可以轻松地指定所有会话数据
+    | 在存储之前应先加密。 所有加密将运行
+    | Laravel自动执行，您可以像平常一样使用Session。
     |
     */
 
@@ -53,9 +53,9 @@ return [
     | Session File Location
     |--------------------------------------------------------------------------
     |
-    | When using the native session driver, we need a location where session
-    | files may be stored. A default has been set for you but a different
-    | location may be specified. This is only needed for file sessions.
+    | 使用本机会话驱动程序时，我们需要一个会话所在的位置
+    | 文件可能会被存储。 已为您设置了默认值，但不同
+    | 可以指定位置。 只有文件会话才需要。
     |
     */
 
@@ -66,9 +66,9 @@ return [
     | Session Database Connection
     |--------------------------------------------------------------------------
     |
-    | When using the "database" or "redis" session drivers, you may specify a
-    | connection that should be used to manage these sessions. This should
-    | correspond to a connection in your database configuration options.
+    | 使用“数据库”或“ redis”会话驱动程序时，可以指定一个
+    | 用于管理这些会话的连接。 这应该
+    | 对应于数据库配置选项中的连接。
     |
     */
 
@@ -79,9 +79,9 @@ return [
     | Session Database Table
     |--------------------------------------------------------------------------
     |
-    | When using the "database" session driver, you may specify the table we
-    | should use to manage the sessions. Of course, a sensible default is
-    | provided for you; however, you are free to change this as needed.
+    | 使用“数据库”会话驱动程序时，您可以指定表
+    | 应该用于管理会话。 当然，明智的默认方法是
+    | 为您提供； 但是，您可以根据需要随意更改。
     |
     */
 
@@ -92,9 +92,9 @@ return [
     | Session Cache Store
     |--------------------------------------------------------------------------
     |
-    | When using the "apc", "memcached", or "dynamodb" session drivers you may
-    | list a cache store that should be used for these sessions. This value
-    | must match with one of the application's configured cache "stores".
+    | 使用“ apc”，“ memcached”或“ dynamodb”会话驱动程序时，
+    | 列出应用于这些会话的缓存存储。 这个值
+    | 必须与应用程序配置的缓存“存储”之一匹配。
     |
     */
 
@@ -105,9 +105,9 @@ return [
     | Session Sweeping Lottery
     |--------------------------------------------------------------------------
     |
-    | Some session drivers must manually sweep their storage location to get
-    | rid of old sessions from storage. Here are the chances that it will
-    | happen on a given request. By default, the odds are 2 out of 100.
+    | 一些会话驱动程序必须手动清除其存储位置才能获取
+    | 摆脱存储中的旧会话。 这里有机会
+    | 发生在给定的请求上。 默认情况下，赔率是100分之2。
     |
     */
 
@@ -118,9 +118,9 @@ return [
     | Session Cookie Name
     |--------------------------------------------------------------------------
     |
-    | Here you may change the name of the cookie used to identify a session
-    | instance by ID. The name specified here will get used every time a
-    | new session cookie is created by the framework for every driver.
+    | 在这里，您可以更改用于标识会话的Cookie的名称
+    | ID实例。 此处指定的名称将在每次
+    | 框架为每个驱动程序创建新的会话cookie。
     |
     */
 
@@ -134,9 +134,9 @@ return [
     | Session Cookie Path
     |--------------------------------------------------------------------------
     |
-    | The session cookie path determines the path for which the cookie will
-    | be regarded as available. Typically, this will be the root path of
-    | your application but you are free to change this when necessary.
+    | 会话Cookie路径确定Cookie的路径
+    | 被视为可用。 通常，这将是
+    | 您的应用程序，但是您可以在必要时随意更改。
     |
     */
 
@@ -147,9 +147,9 @@ return [
     | Session Cookie Domain
     |--------------------------------------------------------------------------
     |
-    | Here you may change the domain of the cookie used to identify a session
-    | in your application. This will determine which domains the cookie is
-    | available to in your application. A sensible default has been set.
+    | 您可以在此处更改用于标识会话的Cookie的域
+    | 在您的应用程序中。 这将确定cookie是哪个域
+    | 在您的应用程序中可用。 设置了明智的默认设置。
     |
     */
 
@@ -160,9 +160,9 @@ return [
     | HTTPS Only Cookies
     |--------------------------------------------------------------------------
     |
-    | By setting this option to true, session cookies will only be sent back
-    | to the server if the browser has a HTTPS connection. This will keep
-    | the cookie from being sent to you if it can not be done securely.
+    | 通过将此选项设置为true，会话cookie将仅被发送回
+    | 如果浏览器具有HTTPS连接，则连接到服务器。 这将保持
+    | 如果无法安全完成cookie，则不会发送给您。
     |
     */
 
@@ -173,9 +173,9 @@ return [
     | HTTP Access Only
     |--------------------------------------------------------------------------
     |
-    | Setting this value to true will prevent JavaScript from accessing the
-    | value of the cookie and the cookie will only be accessible through
-    | the HTTP protocol. You are free to modify this option if needed.
+    | 将此值设置为true将阻止JavaScript访问
+    | Cookie的值，并且该Cookie仅可通过以下方式访问
+    | HTTP协议。 如果需要，您可以随意修改此选项。
     |
     */
 
@@ -186,9 +186,9 @@ return [
     | Same-Site Cookies
     |--------------------------------------------------------------------------
     |
-    | This option determines how your cookies behave when cross-site requests
-    | take place, and can be used to mitigate CSRF attacks. By default, we
-    | do not enable this as other CSRF protection services are in place.
+    | 此选项确定跨站点请求时Cookie的行为
+    | 发生，并且可以用来减轻CSRF攻击。 默认情况下，我们
+    | 请不要启用此功能，因为已经有其他CSRF保护服务。
     |
     | Supported: "lax", "strict"
     |

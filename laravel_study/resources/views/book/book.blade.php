@@ -1,5 +1,7 @@
 @extends('public.app')
 
 @section('content')
-    Laravel
+    Book Book Pages.
 @endsection
+
+

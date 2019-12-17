@@ -9,9 +9,9 @@ return [
     | Default Cache Store
     |--------------------------------------------------------------------------
     |
-    | This option controls the default cache connection that gets used while
-    | using this caching library. This connection is used when another is
-    | not explicitly specified when executing a given caching function.
+    | 此选项控制在以下情况下使用的默认缓存连接
+    | 使用此缓存库。 当另一个是
+    | 在执行给定的缓存功能时未明确指定。
     |
     | Supported: "apc", "array", "database", "file",
     |            "memcached", "redis", "dynamodb"
@@ -25,9 +25,9 @@ return [
     | Cache Stores
     |--------------------------------------------------------------------------
     |
-    | Here you may define all of the cache "stores" for your application as
-    | well as their drivers. You may even define multiple stores for the
-    | same cache driver to group types of items stored in your caches.
+    | 在这里，您可以将应用程序的所有缓存“存储”定义为
+    | 以及他们的drivers。 您甚至可以为
+    | 相同的缓存驱动程序来对缓存中存储的项目类型进行分组。
     |
     */
 
@@ -92,9 +92,9 @@ return [
     | Cache Key Prefix
     |--------------------------------------------------------------------------
     |
-    | When utilizing a RAM based store such as APC or Memcached, there might
-    | be other applications utilizing the same cache. So, we'll specify a
-    | value to get prefixed to all our keys so we can avoid collisions.
+    | 利用基于RAM的存储（例如APC或Memcached）时，可能
+    | 是其他使用相同缓存的应用程序。 因此，我们将指定一个
+    | 值作为我们所有键的前缀，这样就可以避免冲突。
     |
     */
 

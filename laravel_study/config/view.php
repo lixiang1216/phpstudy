@@ -7,9 +7,9 @@ return [
     | View Storage Paths
     |--------------------------------------------------------------------------
     |
-    | Most templating systems load templates from disk. Here you may specify
-    | an array of paths that should be checked for your views. Of course
-    | the usual Laravel view path has already been registered for you.
+    | 大多数模板系统从磁盘加载模板。 在这里您可以指定
+    | 应当检查您的视图的路径数组。 当然
+    | 通常的Laravel视图路径已经为您注册。
     |
     */
 
@@ -22,9 +22,9 @@ return [
     | Compiled View Path
     |--------------------------------------------------------------------------
     |
-    | This option determines where all the compiled Blade templates will be
-    | stored for your application. Typically, this is within the storage
-    | directory. However, as usual, you are free to change this value.
+    | 该选项确定所有已编译的Blade模板的位置
+    | 为您的应用程序存储。 通常，这是在存储中
+    | 目录。 但是，像往常一样，您可以随意更改此值。
     |
     */
 

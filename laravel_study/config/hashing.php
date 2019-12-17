@@ -7,9 +7,9 @@ return [
     | Default Hash Driver
     |--------------------------------------------------------------------------
     |
-    | This option controls the default hash driver that will be used to hash
-    | passwords for your application. By default, the bcrypt algorithm is
-    | used; however, you remain free to modify this option if you wish.
+    | 此选项控制将用于哈希的默认哈希驱动程序
+    | 您的应用程序的密码。 默认情况下，bcrypt算法为
+    | 用过的; 但是，如果愿意，您可以自由修改此选项。
     |
     | Supported: "bcrypt", "argon", "argon2id"
     |
@@ -22,9 +22,9 @@ return [
     | Bcrypt Options
     |--------------------------------------------------------------------------
     |
-    | Here you may specify the configuration options that should be used when
-    | passwords are hashed using the Bcrypt algorithm. This will allow you
-    | to control the amount of time it takes to hash the given password.
+    | 在这里，您可以指定在以下情况下应使用的配置选项
+    | 使用Bcrypt算法对密码进行哈希处理。 这可以让你
+    | 控制哈希散列给定密码所需的时间。
     |
     */
 
@@ -37,9 +37,9 @@ return [
     | Argon Options
     |--------------------------------------------------------------------------
     |
-    | Here you may specify the configuration options that should be used when
-    | passwords are hashed using the Argon algorithm. These will allow you
-    | to control the amount of time it takes to hash the given password.
+    | 在这里，您可以指定在以下情况下应使用的配置选项
+    | 使用Argon算法对密码进行哈希处理。 这些可以让你
+    | 控制哈希散列给定密码所需的时间。
     |
     */
 

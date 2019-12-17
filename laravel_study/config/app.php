@@ -3,41 +3,41 @@
 return [
 
     /*
-    |--------------------------------------------------------------------------
-    | Application Name
-    |--------------------------------------------------------------------------
-    |
-    | This value is the name of your application. This value is used when the
-    | framework needs to place the application's name in a notification or
-    | any other location as required by the application or its packages.
-    |
-    */
+     | ------------------------------------------------- -------------------------
+     | 应用名称
+     | ------------------------------------------------- -------------------------
+     |
+     | 此值是您的应用程序的名称。 当
+     | 框架需要在通知中放置应用程序的名称或
+     | 应用程序或其软件包要求的任何其他位置。
+     |
+    */
 
     'name' => env('APP_NAME', 'Laravel'),
 
     /*
-    |--------------------------------------------------------------------------
-    | Application Environment
-    |--------------------------------------------------------------------------
-    |
-    | This value determines the "environment" your application is currently
-    | running in. This may determine how you prefer to configure various
-    | services the application utilizes. Set this in your ".env" file.
-    |
+     | ------------------------------------------------- -------------------------
+     | 应用环境
+     | ------------------------------------------------- -------------------------
+     |
+     | 此值确定您的应用程序当前所在的“环境”
+     | 运行。这可能会决定您希望如何配置各种
+     | 应用程序利用的服务。 在“ .env”文件中进行设置。
+     |
     */
 
     'env' => env('APP_ENV', 'production'),
 
     /*
-    |--------------------------------------------------------------------------
-    | Application Debug Mode
-    |--------------------------------------------------------------------------
-    |
-    | When your application is in debug mode, detailed error messages with
-    | stack traces will be shown on every error that occurs within your
-    | application. If disabled, a simple generic error page is shown.
-    |
-    */
+     | ------------------------------------------------- -------------------------
+     | 应用调试模式
+     | ------------------------------------------------- -------------------------
+     |
+     | 当您的应用程序处于调试模式时，详细的错误消息将与
+     | 堆栈跟踪将显示在您内部发生的每个错误上
+     | 应用。 如果禁用，将显示一个简单的通用错误页面。
+     |
+     */
 
     'debug' => env('APP_DEBUG', true),
 
@@ -46,9 +46,9 @@ return [
     | Application URL
     |--------------------------------------------------------------------------
     |
-    | This URL is used by the console to properly generate URLs when using
-    | the Artisan command line tool. You should set this to the root of
-    | your application so that it is used when running Artisan tasks.
+    | 控制台使用此URL在使用时正确生成URL。
+    | Artisan命令行工具。 您应该将此设置为
+    | 您的应用程序，以便在运行Artisan任务时使用它。
     |
     */
 
@@ -61,9 +61,9 @@ return [
     | Application Timezone
     |--------------------------------------------------------------------------
     |
-    | Here you may specify the default timezone for your application, which
-    | will be used by the PHP date and date-time functions. We have gone
-    | ahead and set this to a sensible default for you out of the box.
+    | 您可以在此处指定应用程序的默认时区，即
+    | 将由PHP日期和日期时间函数使用。 我们走了
+    | 并为您开箱即用将其设置为明智的默认设置。
     |
     */
 
@@ -74,9 +74,9 @@ return [
     | Application Locale Configuration
     |--------------------------------------------------------------------------
     |
-    | The application locale determines the default locale that will be used
-    | by the translation service provider. You are free to set this value
-    | to any of the locales which will be supported by the application.
+    | 应用程序语言环境确定将使用的默认语言环境
+    | 由翻译服务提供商提供。 您可以自由设置此值
+    | 到应用程序将支持的任何语言环境。
     |
     */
 
@@ -87,9 +87,9 @@ return [
     | Application Fallback Locale
     |--------------------------------------------------------------------------
     |
-    | The fallback locale determines the locale to use when the current one
-    | is not available. You may change the value to correspond to any of
-    | the language folders that are provided through your application.
+    | 后备语言环境确定当前语言环境使用的语言环境
+    | 不可用。 您可以更改值以对应于
+    | 通过应用程序提供的语言文件夹。
     |
     */
 
@@ -100,9 +100,9 @@ return [
     | Faker Locale
     |--------------------------------------------------------------------------
     |
-    | This locale will be used by the Faker PHP library when generating fake
-    | data for your database seeds. For example, this will be used to get
-    | localized telephone numbers, street address information and more.
+    | Faker PHP库在生成伪造品时将使用此语言环境
+    | 数据库种子的数据。 例如，这将用于获取
+    | 本地电话号码，街道地址信息等等。
     |
     */
 
@@ -113,9 +113,9 @@ return [
     | Encryption Key
     |--------------------------------------------------------------------------
     |
-    | This key is used by the Illuminate encrypter service and should be set
-    | to a random, 32 character string, otherwise these encrypted strings
-    | will not be safe. Please do this before deploying an application!
+    | 此密钥由Illuminate加密服务使用，应设置
+    | 到一个随机的32个字符串，否则这些加密的字符串
+    | 将不安全。 请在部署应用程序之前执行此操作！
     |
     */
 
@@ -128,9 +128,9 @@ return [
     | Autoloaded Service Providers
     |--------------------------------------------------------------------------
     |
-    | The service providers listed here will be automatically loaded on the
-    | request to your application. Feel free to add your own services to
-    | this array to grant expanded functionality to your applications.
+    | 此处列出的服务提供商将自动加载到
+    | 要求您的申请。 随时为您添加自己的服务
+    | 此数组可为您的应用授予扩展功能。
     |
     */
 
@@ -182,9 +182,9 @@ return [
     | Class Aliases
     |--------------------------------------------------------------------------
     |
-    | This array of class aliases will be registered when this application
-    | is started. However, feel free to register as many as you wish as
-    | the aliases are "lazy" loaded so they don't hinder performance.
+    | 该类别名数组将在此应用程序时注册
+    | 开始。 但是，您可以根据需要随意注册
+    | 别名是“惰性”加载的，因此它们不会影响性能。
     |
     */
 
