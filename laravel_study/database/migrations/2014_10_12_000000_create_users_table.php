@@ -1,4 +1,10 @@
 <?php
+/*
+ * @Author: Lixiang
+ * @Date: 2019-10-09 14:51:45
+ * @LastEditTime : 2019-12-23 14:36:00
+ * @Description: file content
+ */
 
 use Illuminate\Support\Facades\Schema;
 use Illuminate\Database\Schema\Blueprint;

@@ -1,4 +1,10 @@
 <?php
+/*
+ * @Author: Lixiang
+ * @Date: 2019-10-09 14:51:45
+ * @LastEditTime : 2020-01-06 16:57:30
+ * @Description: file content
+ */
 
 namespace App;
 
@@ -36,4 +42,13 @@ class User extends Authenticatable
     protected $casts = [
         'email_verified_at' => 'datetime',
     ];
+
+
+    public function posts(){
+        return $this->hasMany('App\Post','author_id');
+    }
+
+    public function profile(){
+        return $this->hasOne('App\Profile','user_id');
+    }
 }

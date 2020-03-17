@@ -14,7 +14,7 @@ class AddTestToSampleTable extends Migration
     public function up()
     {
         Schema::table('sample', function (Blueprint $table) {
-            $table->string('test',150);
+            $table->string('test1',150);
         });
     }
 
@@ -26,7 +26,7 @@ class AddTestToSampleTable extends Migration
     public function down()
     {
         Schema::table('sample', function (Blueprint $table) {
-            $table->dropColumn('test');
+            $table->dropColumn('test1');
         });
     }
 }
